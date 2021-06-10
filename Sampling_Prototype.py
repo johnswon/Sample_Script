@@ -42,19 +42,19 @@ def CreateCusSamples(self, NumOfSamples, DistinctField, SSplit = 1):
                             vpf_ind_file.write(rec + "\n")
                             type_9778 += 1
                             continue
-                        elif str(filler1) == "9779" and type_9779 < NumOfSamples:
+                        if str(filler1) == "9779" and type_9779 < NumOfSamples:
                             vpf_ind_file.write(rec + "\n")
                             type_9779 += 1
                             continue
-                        elif str(filler1) == "9781" and type_9781 < NumOfSamples:
+                        if str(filler1) == "9781" and type_9781 < NumOfSamples:
                             vpf_ind_file.write(rec + "\n")
                             type_9781 += 1
                             continue
-                        elif str(filler1) == "9784" and type_9784 < NumOfSamples:
+                        if str(filler1) == "9784" and type_9784 < NumOfSamples:
                             vpf_ind_file.write(rec + "\n")
                             type_9784 += 1
                             continue
-                        elif str(filler1) == "9785" and type_9785 < NumOfSamples:
+                        if str(filler1) == "9785" and type_9785 < NumOfSamples:
                             vpf_ind_file.write(rec + "\n")
                             type_9785 += 1
                             continue
